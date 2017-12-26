@@ -8,8 +8,8 @@ import java.util.Map;
  * Created by modmuss50 on 19/05/2016.
  */
 // -Dfml.coreMods.load=me.modmuss50.pong.PongASM
-@IFMLLoadingPlugin.Name(value = "Pong ASM")
-@IFMLLoadingPlugin.MCVersion(value = "1.10.2")
+@IFMLLoadingPlugin.Name(value = "Pong ASM [Unofficial]")
+@IFMLLoadingPlugin.MCVersion(value = "1.12.2")
 public class PongASM implements IFMLLoadingPlugin {
 
 

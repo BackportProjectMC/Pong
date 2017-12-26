@@ -24,6 +24,6 @@ public class PongHooks {
             color = Color.YELLOW;
         }
 
-        Minecraft.getMinecraft().fontRendererObj.drawString(networkPlayerInfoIn.getResponseTime() + "ms", p_175245_2_ + p_175245_1_ - 11, p_175245_3_, color.getRGB());
+        Minecraft.getMinecraft().fontRenderer.drawString(networkPlayerInfoIn.getResponseTime() + "ms", p_175245_2_ + p_175245_1_ - 11, p_175245_3_, color.getRGB());
     }
 }
